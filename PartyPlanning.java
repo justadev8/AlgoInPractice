@@ -119,5 +119,11 @@ public class PartyPlanning {
 		
 		NodeResponse response = problem.getMaximum(root);
 		problem.printBestResponse(response);
+		
+//		output 
+//		Maximum fun :36
+//		Nodes contributing to max fun are :[4, 15, 5, 2, 10]
+
 	}
 }
+
