@@ -114,8 +114,8 @@ public class PartyPlanning {
 		child2.addChild(new TreeNode(10));
 		
 //				4
-//			20		15	  
-//		15		5 2    10
+//			20		 	15	  
+//		15		5	2		10
 		
 		NodeResponse response = problem.getMaximum(root);
 		problem.printBestResponse(response);
