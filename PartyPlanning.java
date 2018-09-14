@@ -106,18 +106,15 @@ public class PartyPlanning {
 		TreeNode root = new TreeNode(4);
 		TreeNode child1 = new TreeNode(20); 
 		TreeNode child2= new TreeNode (15);
-//		TreeNode child3= new TreeNode (12);
 		root.addChild(child1);
 		root.addChild(child2);
-//		root.addChild(child3);
-		
 		child1.addChild(new TreeNode(15));
 		child1.addChild(new TreeNode(5));
 		child2.addChild(new TreeNode(2));
 		child2.addChild(new TreeNode(10));
 		
 //				4
-//			20		15	  12
+//			20		15	  
 //		15		5 2    10
 		
 		NodeResponse response = problem.getMaximum(root);
